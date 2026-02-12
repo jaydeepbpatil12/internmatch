@@ -54,7 +54,7 @@ A comprehensive MERN stack platform connecting students with internship, project
 
 ### Clone Repository
 ```bash
-git clone https://github.com/Aishwarya-Arya05/Online_InternshipMatching_platform.git
+git clone https://github.com/jaydeepbpatil12/internmatch.git
 cd Online_InternshipMatching_platform
 ```
 
@@ -247,7 +247,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👥 Authors
 
-- **Aishwarya Arya** - [GitHub](https://github.com/Aishwarya-Arya05)
+- **Jaydeep Patil** - [GitHub](https://github.com/jaydeepbpatil12)
 
 ## 🙏 Acknowledgments
 
