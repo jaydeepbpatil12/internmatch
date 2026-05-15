@@ -149,9 +149,9 @@ const About = () => {
                         <p className="text-gray-400 max-w-2xl mx-auto">The passionate individuals behind InternMatch+</p>
                     </div>
 
-                    <div className="grid md:grid-cols-3 gap-8">
-                        {/* Aishwarya - Lead Developer */}
-                        <div className="bg-[#112240] p-8 rounded-xl border-2 border-green-500 hover:border-green-400 transition-all hover:-translate-y-2 relative overflow-hidden group">
+                    <div className="flex flex-wrap gap-8 justify-center">
+                                                {/* Aishwarya - Lead Developer */}
+                        <div className="bg-[#112240] p-8 rounded-xl border-2 border-green-500 hover:border-green-400 transition-all hover:-translate-y-2 relative overflow-hidden group w-96 min-h-[500px]">
                             {/* Lead Badge */}
                             <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                                 LEAD
@@ -161,7 +161,7 @@ const About = () => {
                                 <div className="h-24 w-24 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-6 group-hover:scale-110 transition-transform">
                                     A
                                 </div>
-                                <h3 className="text-2xl font-bold text-white mb-2">Aishwarya</h3>
+                                <h3 className="text-2xl font-bold text-white mb-2">Jaydeep patil</h3>
                                 <p className="text-green-400 font-semibold mb-4">Lead Developer & Architect</p>
 
                                 <div className="w-full text-left space-y-3 mt-4">
@@ -184,40 +184,14 @@ const About = () => {
                             </div>
                         </div>
 
-                        {/* Kundan - Backend Developer */}
-                        <div className="bg-[#112240] p-8 rounded-xl border border-gray-800 hover:border-green-500 transition-all hover:-translate-y-2 group">
-                            <div className="flex flex-col items-center text-center">
-                                <div className="h-24 w-24 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-6 group-hover:scale-110 transition-transform">
-                                    K
-                                </div>
-                                <h3 className="text-2xl font-bold text-white mb-2">Kundan</h3>
-                                <p className="text-blue-400 font-semibold mb-4">Backend Developer</p>
-
-                                <div className="w-full text-left space-y-3 mt-4">
-                                    <p className="text-sm text-gray-400 font-medium mb-2">Key Contributions:</p>
-                                    {[
-                                        'Server-side logic',
-                                        'API endpoint development',
-                                        'Database optimization',
-                                        'Security implementation',
-                                        'Testing & debugging'
-                                    ].map((item, idx) => (
-                                        <div key={idx} className="flex items-start text-gray-300 text-sm">
-                                            <span className="h-5 w-5 rounded-full bg-blue-500/20 text-blue-400 flex items-center justify-center mr-2 flex-shrink-0 text-xs">✓</span>
-                                            {item}
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
 
                         {/* Jaydeep - UI/UX Designer */}
-                        <div className="bg-[#112240] p-8 rounded-xl border border-gray-800 hover:border-green-500 transition-all hover:-translate-y-2 group">
+                        <div className="bg-[#112240] p-8 rounded-xl border border-gray-800 hover:border-green-500 transition-all hover:-translate-y-2 group w-96 min-h-[500px]">
                             <div className="flex flex-col items-center text-center">
                                 <div className="h-24 w-24 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white text-3xl font-bold mb-6 group-hover:scale-110 transition-transform">
                                     J
                                 </div>
-                                <h3 className="text-2xl font-bold text-white mb-2">Jaydeep</h3>
+                                <h3 className="text-2xl font-bold text-white mb-2">Arjun</h3>
                                 <p className="text-purple-400 font-semibold mb-4">UI/UX Designer</p>
 
                                 <div className="w-full text-left space-y-3 mt-4">
@@ -243,7 +217,7 @@ const About = () => {
                     <div className="mt-16 bg-gradient-to-r from-green-500/10 to-emerald-500/10 p-8 rounded-xl border border-green-500/30">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                             <div>
-                                <div className="text-3xl font-bold text-white mb-2">3</div>
+                                <div className="text-3xl font-bold text-white mb-2">2</div>
                                 <div className="text-gray-400">Team Members</div>
                             </div>
                             <div>

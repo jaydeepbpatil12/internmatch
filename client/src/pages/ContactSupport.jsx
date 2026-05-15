@@ -148,13 +148,13 @@ const ContactSupport = () => {
                             {
                                 icon: Mail,
                                 title: 'Email Us',
-                                content: 'aisharya05@gmail.com',
+                                content: 'jaydeepbpatil12@gmail.com',
                                 subtext: 'We reply within 24 hours'
                             },
                             {
                                 icon: Phone,
                                 title: 'Call Us',
-                                content: '+91 6204439707',
+                                content: '+91 1234567890',
                                 subtext: 'Mon-Fri, 9AM-6PM IST'
                             },
                             {
