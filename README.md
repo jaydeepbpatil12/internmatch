@@ -21,6 +21,8 @@ A comprehensive MERN stack platform connecting students with internship, project
 - ⚙️ **Organization Profile** - Manage company information
 
 ### Additional Features
+- 🐳 **Dockerized** - Full stack containerized with Docker and Docker Compose
+- 🔄 **CI/CD Pipeline** - Automated building and testing via GitHub Actions
 - 🎨 **Modern UI/UX** - Dark mode with glassmorphism design
 - 📱 **Responsive Design** - Works on all devices
 - 🔒 **Authentication** - Secure login for students and organizations
@@ -48,11 +50,30 @@ A comprehensive MERN stack platform connecting students with internship, project
 ## 📦 Installation
 
 ### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB (local or Atlas)
+- Docker and Docker Desktop (Recommended)
+- Node.js (v14 or higher) - *for manual setup*
+- MongoDB (local or Atlas) - *for manual setup*
 - Git
 
-### Clone Repository
+### Quick Start with Docker (Recommended)
+The easiest way to run the entire application stack is using Docker Compose. This automatically sets up the frontend, backend, and a local MongoDB database.
+
+```bash
+git clone https://github.com/jaydeepbpatil12/internmatch.git
+cd Online_InternshipMatching_platform
+docker-compose up --build
+```
+
+The application will run on:
+- **Frontend:** `http://localhost`
+- **Backend API:** `http://localhost:5000`
+- **MongoDB:** `mongodb://localhost:27017` (Connect via MongoDB Compass)
+
+---
+
+### Manual Setup
+
+#### Clone Repository
 ```bash
 git clone https://github.com/jaydeepbpatil12/internmatch.git
 cd Online_InternshipMatching_platform
@@ -93,7 +114,11 @@ The application will run on:
 
 ```
 Internship_web/
+├── .github/
+│   └── workflows/
+│       └── ci.yml        # CI/CD Pipeline configuration
 ├── client/                 # Frontend React application
+│   ├── Dockerfile        # Frontend Docker configuration
 │   ├── public/
 │   ├── src/
 │   │   ├── components/    # Reusable components
@@ -112,6 +137,7 @@ Internship_web/
 │   └── package.json
 │
 ├── server/                # Backend Node.js application
+│   ├── Dockerfile        # Backend Docker configuration
 │   ├── config/
 │   │   └── db.js         # Database configuration
 │   ├── controllers/      # Route controllers
@@ -135,6 +161,7 @@ Internship_web/
 │   ├── server.js         # Entry point
 │   └── package.json
 │
+├── docker-compose.yml     # Docker services orchestration
 └── README.md
 ```
 
